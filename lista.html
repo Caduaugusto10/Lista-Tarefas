@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="lista.css">
 </head>
 <body>
-    
+
+    <script src="script.js"></script>
+
+    <div class="container">
+        <h1>Tarefas Diárias</h1>
+        <input type="text" id="taskInput" placeholder="Qual Seria a Tarefa de Hoje?">
+        <button onclick="adcTask()">➕</button>
+    </div>
+
+    <div id="taskList"></div>
 </body>
 </html>
